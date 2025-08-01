@@ -215,7 +215,16 @@ tri4nos(10)'''
 
 rectangle(4)'''
 
-def numpattern(n):
+'''22. Pattern for 
+4 4 4 4 4 4 4 
+4 3 3 3 3 3 4 
+4 3 2 2 2 3 4 
+4 3 2 1 2 3 4 
+4 3 2 2 2 3 4 
+4 3 3 3 3 3 4 
+4 4 4 4 4 4 4 '''
+
+'''def numpattern(n):
     size = 2 * n - 1
     for i in range (size):
         for j in range (size):
@@ -223,4 +232,4 @@ def numpattern(n):
             print(n - min_dis, end = " ")
         print()
 
-numpattern(2) 
+numpattern(4)'''
