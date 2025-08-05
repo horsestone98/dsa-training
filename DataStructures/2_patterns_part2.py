@@ -233,3 +233,23 @@ rectangle(4)'''
         print()
 
 numpattern(4)'''
+
+'''23. Pascal's triangle
+     1 
+    1 1 
+   1 2 1 
+  1 3 3 1 
+ 1 4 6 4 1 
+1 5 10 10 5 1 '''
+
+'''def pascal(n):
+    for i in range(n):
+        for j in range(n-i-1, 0, -1):
+            print(' ', end = '')
+        num = 1
+        for j in range(0, i+1):
+            print(num, end = ' ')
+            num = num * (i-j) // (j+1)
+        print()
+
+pascal(6)'''
