@@ -56,9 +56,9 @@ def searchval_last_doublyll(last_val, search_val):
 
 # print(searchval_last_doublyll(Tail, 1))
 
-# 3. Add an element to a specific position (from the front)
+# 3. Add an element to a specific position
 
-def insert_val_dlfront(first_val, insert_val, pos):
+def insert_val_dl(first_val, insert_val, pos):
     new_node = DoublyNode(insert_val)
 
     if pos <= 0:
@@ -85,5 +85,28 @@ def insert_val_dlfront(first_val, insert_val, pos):
 
     return first_val
 
-out1 = insert_val_dlfront(Head, 7, 1)
-display_doublyll(out1)
+# out1 = insert_val_dl(Head, 7, 1)
+# display_doublyll(out1)
+
+# 4. Reverse the doubly linked list
+
+def reverse_dl(first_val):
+    curr = first_val
+    prev = None
+
+    while curr:
+        # Swap next and prev for the current node
+        temp = curr.prev
+        curr.prev = curr.next
+        curr.next = temp
+        
+        # Move prev to current, and current to its new prev (old next)
+        prev = curr
+        curr = curr.prev
+    
+    # After the loop, prev will be at the new head
+    return prev
+
+
+# out5 = reverse_dl(Head)
+# display_doublyll(out5)
