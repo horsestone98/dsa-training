@@ -150,7 +150,7 @@ def product_singlyll(first_val):
         curr = curr.next
     return temp
 
-print(product_singlyll(Head))
+# print(product_singlyll(Head))
 
 # 9. Concatenate all the values of a singly linked list
 
