@@ -23,7 +23,6 @@ D.next = Head
 def display_circsinglyll(first_val):
     curr = first_val
     elements = []
-
     while curr:
         elements.append(str(curr.val))
         curr = curr.next
@@ -32,7 +31,7 @@ def display_circsinglyll(first_val):
 
     print(' -> '.join(elements))
 
-# display_circsinglyll(Head)
+display_circsinglyll(Head)
 
 # 2. Counting the elements in a circular singly linked list
 
