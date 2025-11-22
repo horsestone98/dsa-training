@@ -46,4 +46,4 @@ def countlength_loop(first_val):
             break
     return count
 
-# print(countlength_loop(Head))
+print(countlength_loop(Head))

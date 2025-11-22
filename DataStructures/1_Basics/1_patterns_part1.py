@@ -11,7 +11,6 @@
 
 pattern(3)'''
 
-
 '''2. Pattern for 
 * 
 * * 
@@ -40,6 +39,7 @@ pattern_diag(6)'''
 
 pattern_num(4)'''
 
+
 '''4. Pattern for
 1 
 1 2 
@@ -52,6 +52,7 @@ pattern_num(4)'''
         print()
 
 pattern_n(3)'''
+
 
 '''5. Pattern for
 * * * * 
@@ -67,6 +68,7 @@ pattern_n(3)'''
 
 pattern_strev(4)'''
 
+
 '''6. Pattern for 
 1 2 3 
 1 2 
@@ -81,6 +83,7 @@ pattern_strev(4)'''
         print()
 
 pattern_numrev(5)'''
+
 
 '''7. Pattern for
     *
@@ -98,6 +101,7 @@ pattern_numrev(5)'''
 pattern_py(5)'''
 
 
+
 '''8. Pattern for 
  *****
   ***
@@ -112,6 +116,7 @@ pattern_py(5)'''
         print()
 
 invpattern_py(4)'''
+
 
 '''9. Pattern for 
    *
@@ -139,7 +144,7 @@ invpattern_py(4)'''
 
 diamond(4)'''
 
-'''Pattern for
+'''10. Pattern for
 *
 **
 ***
