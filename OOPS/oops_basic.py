@@ -15,6 +15,7 @@ class cricket:
 c = cricket("Dhoni", 43)
 print(c.add_two(c.age))
 
+
 class cricket:                                  # Class is the blueprint for creating objects
     def __init__(self, name, age):              # __init__ is the constructor method and runs automatically when the object is created
         self.name = name
