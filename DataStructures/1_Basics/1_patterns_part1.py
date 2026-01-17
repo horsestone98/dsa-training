@@ -45,13 +45,13 @@ pattern_num(4)'''
 1 2 
 1 2 3'''
 
-def pattern_n(n):
+'''def pattern_n(n):
     for i in range(0,n):
         for j in range(0, i+1):
             print(j+1, end= ' ')
         print()
 
-pattern_n(3)
+pattern_n(3)'''
 
 
 '''5. Pattern for
