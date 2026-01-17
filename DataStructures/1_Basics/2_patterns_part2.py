@@ -242,7 +242,7 @@ numpattern(4)'''
  1 4 6 4 1 
 1 5 10 10 5 1 '''
 
-def pascal(n):
+'''def pascal(n):
     for i in range(n):
         for j in range(i, n-1):
             print(' ', end = '')
@@ -252,4 +252,4 @@ def pascal(n):
             num = num * (i-j) // (j+1)
         print()
 
-pascal(5)
+pascal(5)'''
